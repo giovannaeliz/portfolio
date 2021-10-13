@@ -29,6 +29,14 @@
             border-radius: 300px;
             
         }
+
+        .link-git:hover {
+            color: rgb(207, 8, 141);
+        }
+        .link-linkedin:hover {
+            color: rgb(207, 8, 141);
+        }
+        
         .link-git {
             position: absolute;
             padding: 1px;
