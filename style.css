@@ -61,4 +61,28 @@
             text-decoration: none;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
-    
+         
+        .switch {
+            width: 80px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: rgb(31, 31, 31);
+            position: relative;
+        }
+
+        .flicker {
+            width: 30px;
+            height: 30px;
+            border-radius: 15px;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            box-shadow: 
+            inset 4px 4px 4px rgb(255, 255, 255),
+            inset -4px -4px 4px rgb(195 193 198 / 90%);
+        }
+
+        .dark {
+            background-color: rgb(37, 37, 37);
+        }
