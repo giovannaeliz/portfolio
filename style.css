@@ -1,18 +1,28 @@
     
     
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
         h1 {
-         color:rgb(0, 0, 0);
-         font-family: Montserrat, sans-serif;
+         color:rgb(31, 31, 31);
+         font-family: 'Montserrat', sans-serif;
          font-size: 43px;
-         margin-top: 60px;
         
         }
         body {
          background-color: rgb(255, 255, 255);
          font-size: 20px;
          transition: 0.3s;
-         margin: 0;
-         padding: 0;
+         margin-left: 22%;
+         margin-top: 2%;
+
+        }
+        .texto {
+            font-family: 'Montserrat', sans-serif;
         }
 
         #foto1 {
@@ -88,20 +98,6 @@
             transform: translateX(40px);
             
         }
-        .main {
-            border: 15px solid green;
-            padding: 150px;
-            margin: 170px;
-            margin-top: -40px;
+
 
         
-
-        }
-        .main-text {
-            position: relative;
-            top: -300px
-        }
-        .texto {
-            margin-top: -40px;
-        }
-    
